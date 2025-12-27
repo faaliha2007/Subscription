@@ -8,7 +8,7 @@ This project displays different subscription plans (Free, Standard, Premium) wit
 ## 🌐 Live Demo
 
 Check out the live version of this project here:  
-🔗
+🔗  https://faaliha2007.github.io/Subscription/
 
 
 
