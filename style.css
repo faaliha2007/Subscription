@@ -1,0 +1,116 @@
+<style>* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sub {
+    background-color: white;
+}
+
+.sub__title {
+    background-color: #F68EC7;
+    text-align: center;
+    margin-top: 40px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sub__heading {
+    padding-bottom: 10px;
+    color: black;
+}
+
+.sub__card {
+    border: white 1px solid;
+    border-radius: 14px;
+    padding: 4px;
+    background-color: #161622;
+    color: white;
+    margin: 10px;
+    width: 200px;
+}
+
+.sub__card1-desc {
+    border: 3px solid white;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.sub__heading {
+    margin: 2px;
+    color: black;
+}
+
+.sub__card2-desc {
+    border: 3px solid white;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.sub__heading {
+    margin: 2px;
+    color: black;
+}
+
+.sub__card3-desc {
+    border: 3px solid white;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.sub__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    flex-wrap: wrap;
+}
+
+.card-mark {
+    list-style: none;
+    padding: 0px;
+}
+
+.card-mark li {
+    position: relative;
+    padding-left: 15px;
+}
+
+.card-mark li.active::before {
+    content: "✔";
+    padding: 2px;
+    margin-right: 6px;
+    display: inline-block;
+    width: 10px;
+    height: 8px;
+    border: 2px #9b59ff solid;
+    border-radius: 50%;
+    background-color: #9b59ff;
+    line-height: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.card-mark li.inactive::before {
+    content: ".";
+    border: 2px #9b59ff solid;
+    border-radius: 50%;
+    text-align: center;
+    width: 10px;
+    height: 8px;
+    display: inline-block;
+    line-height: 1px;
+    color: #9b59ff;
+}
+
+.sub__card:hover {
+    background-color: #2a003f;
+}
+.sub__card{
+    margin: 40px;
+}
